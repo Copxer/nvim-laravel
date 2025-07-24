@@ -66,3 +66,6 @@ vim.filetype.add({
         ["%.env%.[%w_.-]+"] = "dotenv",
     },
 })
+-- Show non-space whitespace characters
+vim.opt.list = true -- show whitespace characters
+vim.opt.listchars:append("space:·") -- show space as a dot
