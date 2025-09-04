@@ -36,15 +36,15 @@ vim.opt.relativenumber = true -- set relative numbered lines
 vim.opt.numberwidth = 4 -- set number column width to 2 {default 4}
 vim.opt.signcolumn = "yes:1" --  show the sign column, otherwise it would shift the text each time
 vim.opt.wrap = false -- display lines as one long line
--- vim.opt.scrolloff = 8                                   -- Makes sure there are always eight lines of context
--- vim.opt.sidescrolloff = 8                               -- Makes sure there are always eight lines of context
+vim.opt.scrolloff = 8 -- Makes sure there are always eight lines of context
+vim.opt.sidescrolloff = 8 -- Makes sure there are always eight lines of context
 vim.opt.showcmd = false -- Don't show the command in the last line
 vim.opt.ruler = true -- Don't show the ruler
-vim.opt.guifont = "monospace:h17" -- the font used in graphical neovim applications
+--vim.opt.guifont = "monospace:h17" -- the font used in graphical neovim applications
 vim.opt.title = true -- set the title of window to the value of the titlestring
 vim.opt.confirm = true -- confirm to save changes before exiting modified buffer
 vim.opt.fillchars = { eob = " " } -- change the character at the end of buffer
--- vim.opt.winborder = "rounded" -- solid
+vim.opt.winborder = "rounded" -- solid
 vim.opt.winborder = "single" -- https://neovim.io/doc/user/options.html#'winborder'
 
 -- vim.opt.guicursor = ""                          -- set the cursor to be a vertical bar

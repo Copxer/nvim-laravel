@@ -54,6 +54,8 @@ return {
             -- markdown = { "markdownlint" },
             -- yaml = { "yamllint" },
             -- toml = { "taplo" },
+            vue = { "prettier" },
+            xml = { "prettier" },
         },
         default_format_opts = {
             lsp_format = "fallback",
@@ -62,7 +64,6 @@ return {
             timeout_ms = 1000,
             lsp_format = "fallback",
         },
-
     },
     init = function()
         vim.o.formatexpr = "v:lua.require'conform'.formatexpr()"
